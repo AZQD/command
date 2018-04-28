@@ -1,6 +1,6 @@
 {
   "name": "cj_test666",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "npm study",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AZQD/NPM"
-  }
+    "url": "git+https://github.com/AZQD/NPM.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AZQD/NPM/issues"
+  },
+  "homepage": "https://github.com/AZQD/NPM#readme"
 }
