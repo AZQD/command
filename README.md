@@ -46,9 +46,11 @@ npm init 引导创建一个package.json文件，包括名称、版本、作者�
 
 npm outdated  #检查模块是否已经过时
 
-    npm root  [-g] 查看包的安装路径，输出 node_modules的路径，
-    npm help 查看某条命令的详细帮助 例如输入npm help install
-    npm config 管理npm的配置路径
+npm root  [-g] 查看包的安装路径，输出 node_modules的路径，
+
+npm help 查看某条命令的详细帮助 例如输入npm help install
+
+npm config 管理npm的配置路径
 
 详情参考链接：
 https://www.cnblogs.com/wdlhao/p/5900360.html#description-npm
