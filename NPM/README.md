@@ -54,3 +54,39 @@ npm config 管理npm的配置路径
 
 详情参考链接：
 https://www.cnblogs.com/wdlhao/p/5900360.html#description-npm
+
+
+NVM是一个可以让你在同一台机器上安装和切换不同版本node的工具。
+windows-nvm的下载地址:
+https://link.jianshu.com/?t=https://github.com/coreybutler/nvm-windows/releases
+
+E:\Program Files\应用程序\nvm-setup.exe
+
+windows下nvm的命令([]中的参数可有可无)：
+nvm arch                         查看当前系统的位数和当前nodejs的位数
+nvm install <version> [arch]     安装制定版本的node 并且可以指定平台 version 版本号  arch 平台
+nvm list [available]
+  - nvm list   查看已经安装的版本
+  - nvm list installed 查看已经安装的版本
+  - nvm list available 查看网络可以安装的版本
+nvm on                           打开nodejs版本控制
+nvm off                          关闭nodejs版本控制
+nvm proxy [url]                  查看和设置代理
+nvm node_mirror [url]            设置或者查看setting.txt中的node_mirror，如果不设置的默认是 https://nodejs.org/dist/
+nvm npm_mirror [url]             设置或者查看setting.txt中的npm_mirror,如果不设置的话默认的是：https://github.com/npm/npm/archive/.
+nvm uninstall <version>          卸载制定的版本
+nvm use [version] [arch]         切换制定的node版本和位数
+nvm root [path]                  设置和查看root路径
+nvm version                      查看当前的版本
+下面是安装和使切换nodejs的几个简单的命令使用：
+
+nvm install 8.0.0 64-bit
+nvm use 8.0.0
+nvm list //查看以己经安装的
+
+参考链接：https://www.cnblogs.com/SpecterGK/p/8550392.html
+
+nvm use报错 exit status 1: ' 出现乱码：
+路径不对，或者路径名称有空格；
+
+### NRM
