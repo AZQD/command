@@ -4,6 +4,7 @@ mkdir //创建新文件夹
 
 open ~/.ssh
 
+
 Mac:
 nvm安装成功后，但命令不可用
 https://www.cnblogs.com/respect2017/p/7227191.html
