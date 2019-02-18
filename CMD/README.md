@@ -1,3 +1,19 @@
+dir 显示目录和文件
+cd  进入目录
+cd .. 返回上一层
+del 删除文件
+rd  删除空目录（目录中不能有子目录和文件）
+rd/s 删除目录并同时删除目录中的子目录以及文件
+
+rm-rf dir //强制删除某个文件
+
+rd: remove directory
+s: subdirectory
+
+mkdir test 创建test目录
+rmdir test 删除test目录
+
+
 pwd //当前文件路径
 ls //当前文件的所有文件
 mkdir //创建新文件夹
