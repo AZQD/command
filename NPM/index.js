@@ -1,4 +1,4 @@
-export function console(str) {
+export function consoleFun(str) {
   console.log(str);
 }
 
