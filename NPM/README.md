@@ -98,6 +98,8 @@ cj_test666.consoleFun(666); // 666
 
 3.更新开发环境依赖包：npm update <name> --save-dev
 
+注意：升级后npm对应的包，需要重新启动一下自己的项目；
+
 
 八、npm常用命令小结：
 
