@@ -202,4 +202,12 @@ nvm use报错 exit status 1: ' 出现乱码：
 
 ### 十、NRM
 
-（持续更新）
+使用nrm来切换npm源
+
+1. npm install -g nrm
+
+2. nrm ls：列出可用的源
+
+3. nrm use taobao：通过 nrm use指令来切换不同的源
+
+4. nrm add 别名 源地址：添加源
