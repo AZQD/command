@@ -1,20 +1,105 @@
 # NPM
 npm应用
 
-npm包发布步骤：
-1.新建一个项目：npm init;
 
-2.登陆npm：npm login；
+一、npm安装依赖包
 
-3.发布：npm publish;
+1.全局安装的方式：npm install -g 模块名称
 
-npm包更新步骤：
+2.本地安装的方式：
+npm install 模块 安装好后不写入package.json中
+npm install 模块 --save 安装好后写入package.json的dependencies中（生产环境依赖）
+npm install 模块 --save-dev 安装好后写入package.json的devDepencies中（开发环境依赖）
+
+
+二、npm删除包
+
+1.删除全局模块：npm uninstall -g <package>利用npm
+
+2.删除本地模块：
+npm uninstall 模块：删除模块，但不删除模块留在package.json中的对应信息
+npm uninstall 模块 --save 删除模块，同时删除模块留在package.json中dependencies下的对应信息
+npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.json中devDependencies下的对应信息
+
+
+三、npm包发布步骤：
+
+【注意点1】不能和已有的包的名字重名！
+【注意点2】还有一点要注意的是npm对包名的限制：不能有大写字母/空格/下滑线!
+【注意点3】你的项目里有部分私密的代码不想发布到npm上？
+
+1.登陆npm：npm login // npm whoami 查看登录状态
+
+2.本地新建一个文件夹：mkdir cj_test666
+
+3.进入该文件：cd cj_test666
+
+4.新建一个项目：npm init
+
+5.添加一些项目信息，直到is ok
+
+6.新建一个index.js,写一个方法，将它export，如：
+module.exports = {
+  consoleFun: function (str) {
+    console.log(str);
+  }
+};
+
+7.发布：npm publish
+
+8.登陆 https://www.npmjs.com/login 可以查看自己发布的包信息
+
+
+四、npm撤销发布包
+
+【注意点1】根据规范，只有在发包的24小时内才允许撤销发布的包
+
+1.npm unpublish // 如果报权限方面的错，加上--force
+
+2.npm unpublish的推荐替代命令：npm deprecate <pkg>[@<version>] <message>
+使用这个命令，并不会在社区里撤销你已有的包，但会在任何人尝试安装这个包的时候得到警告
+
+
+五、npm包更新步骤：
 
 1.修改包的版本（package.json里的version字段）;
+(1).手动修改；
+(2).通过npm version <update_type>自动改变版本
+    update_type为patch, minor, or major其中之一，分别表示补丁，小改，大改
+    
+    具体体现为：
+    对于"version":"x.y.z"
+    1.修复bug,小改动，增加z
+    2.增加了新特性，但仍能向后兼容，增加y
+    3.有很大的改动，无法向后兼容,增加x
+     
+    例如：我原本的项目是1.0.0版本的话
+    若是1中情况，变为1.0.1
+    若是2中情况，变为1.1.0
+    若是3中情况，变为2.0.0
 
 2.发布：npm publish;
 
-npm常用命令小结：
+
+六、npm包使用步骤：
+
+1.通过npm install cj_test666 安装该包
+
+2.导入引入的包模块，调用其方法
+const cj_test666 = require('cj_test666');
+cj_test666.consoleFun(666); // 666
+
+
+七、npm升级指定依赖包
+
+1.更新全局包：npm update <name> -g
+
+2.更新生产环境依赖包：npm update <name> --save
+
+3.更新开发环境依赖包：npm update <name> --save-dev
+
+
+八、npm常用命令小结：
 
 npm install [-g] 本地或全局安装模块
 
@@ -31,6 +116,10 @@ npm show  显示模块详情
 npm info 查看模块的详细信息
 
 npm search 搜索模块
+
+npm login 登录npm
+
+npm whoami 查看登录状态
 
 npm publish 发布模块
 

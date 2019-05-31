@@ -1,9 +1,10 @@
 {
   "name": "cj_test666",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "npm study",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -14,10 +15,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AZQD/NPM.git"
+    "url": "https://github.com/AZQD/NPM.git"
   },
   "bugs": {
     "url": "https://github.com/AZQD/NPM/issues"
   },
-  "homepage": "https://github.com/AZQD/NPM#readme"
+  "homepage": "https://github.com/AZQD/NPM#readme",
+  "devDependencies": {
+    "qs": "^6.7.0"
+  }
 }
