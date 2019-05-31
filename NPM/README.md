@@ -98,7 +98,7 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
 
 2.导入引入的包模块，调用其方法
 
-    const cj_test666 = require('cj_test666');
+    const cj_test666 = require('cj_test666'); //或者：import cj_test666 from 'cj_test666';
     cj_test666.consoleFun(666); // 666
 
 
