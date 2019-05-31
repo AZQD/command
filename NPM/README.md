@@ -160,6 +160,8 @@ npm config 管理npm的配置路径
 https://www.cnblogs.com/wdlhao/p/5900360.html#description-npm
 
 
+### 九、NVM
+
 NVM是一个可以让你在同一台机器上安装和切换不同版本node的工具。
 
 windows-nvm的下载地址:
@@ -198,4 +200,6 @@ nvm use报错 exit status 1: ' 出现乱码：
 
 路径不对，或者路径名称有空格；
 
-### NRM
+### 十、NRM
+
+（持续更新）
