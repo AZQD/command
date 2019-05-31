@@ -174,7 +174,7 @@ test分支合并到master分支：
 git 对比两个分支差异
 git diff dev master
 
-git reset --hard HEAD   将整个工作区回到最新版本
+git reset --hard HEAD 或者 git reset --hard   将整个工作区回到最新版本
 git reset --hard xxxxxx  完成撤销,同时将代码恢复到前一commit_id 对应的版本(xxxxxx为版本的前六位)
 
 git reset xxxxxx
