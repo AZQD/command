@@ -214,3 +214,6 @@ git checkout -- 文件路径
 
 当前分支和master分支对比src文件夹：
 git diff master src
+
+创建并切换分支： 
+git checkout -b newBranch
