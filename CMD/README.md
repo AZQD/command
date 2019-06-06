@@ -98,6 +98,9 @@ Mac剪切：
 cmd+c复制，然后option+cmd+V剪切；
 cmd+R刷新；
 
+Mac关闭应用：
+Command + Q
+
 
 
 ### Photoshop
