@@ -206,14 +206,17 @@ git stash pop   恢复工作进度
 git commit b.html message
 git push origin branchName
 
+
 撤回操作：
 撤回所有修改：git checkout -- .
 撤回某个文件的修改：
 git status 先查看已经修改了哪些文件，然后复制要撤回的文件路径
 git checkout -- 文件路径
 
+
 当前分支和master分支对比src文件夹：
 git diff master src
+
 
 创建并切换分支： 
 git checkout -b newBranch
