@@ -129,7 +129,7 @@ npm show  显示模块详情
 
 npm info 查看模块的详细信息
 
-npm search 搜索模块
+npm search 搜索模块；如 npm search math 就会搜索出所有关键字为math的包；
 
 npm login 登录npm
 
