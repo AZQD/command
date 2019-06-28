@@ -1,0 +1,39 @@
+@import "./../../../assets/rem@px.scss";
+.toast-outer-wrap {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1500;
+    &::before,
+    &::after {
+        content: '';
+        flex: 1;
+    }
+    .toast_com_wrap {
+        /* top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%); */
+        padding: 20*$px 30*$px;
+        max-width: 80%;
+        min-height: 50*$px;
+        line-height: 50*$px;
+        margin: auto;
+        text-align: center;
+        /* width: 400*$px; */
+        display: inline-block;
+        border-radius: 6*$px;
+        background: rgba(0, 0, 0, .8);
+        font-family: PingFangSC-Regular;
+        font-size: 32*$px;
+        color: #FFFFFF;
+    }
+}

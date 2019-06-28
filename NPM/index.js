@@ -1,5 +1,6 @@
 // import qs from 'qs';
 const qs = require('qs');
+import CopyText from './CopyText';
 
 /**
  * 获取URL链接参数Object
@@ -14,5 +15,6 @@ module.exports = {
     console.log(str);
   },
   TextNode: 'This is my first NPM project',
-  urlQuery
+  urlQuery,
+  CopyText
 };
