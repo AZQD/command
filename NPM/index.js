@@ -1,6 +1,6 @@
 // import qs from 'qs';
 const qs = require('qs');
-import CopyText from './CopyText';
+import CopyText from './src/CopyText/index';
 
 /**
  * 获取URL链接参数Object
