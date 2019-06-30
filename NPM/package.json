@@ -1,6 +1,6 @@
 {
   "name": "cj_test666",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "npm study",
   "main": "lib/index.js",
   "scripts": {
