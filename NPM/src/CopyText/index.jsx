@@ -21,7 +21,7 @@
 
 import React, {Component} from 'react';
 import ClipboardJS from 'clipboard';
-import './index.css'
+// import './index.css'
 
 export default class CopyText extends Component {
 
