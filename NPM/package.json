@@ -1,11 +1,11 @@
 {
   "name": "cj_test666",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "npm study",
   "main": "lib/index.js",
   "scripts": {
     "start": "node index.js",
-    "build": "babel src --out-dir lib",
+    "build": "babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
