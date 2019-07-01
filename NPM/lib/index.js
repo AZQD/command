@@ -1,6 +1,6 @@
 'use strict';
 
-var _index = require('./CopyText/index');
+var _index = require('./CopyText/index.jsx');
 
 var _index2 = _interopRequireDefault(_index);
 
