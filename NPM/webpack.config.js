@@ -6,7 +6,7 @@ module.exports = {
     path: path.join(__dirname, 'lib'),
     filename: 'index.js'
   },
-  mode: 'development',
+  mode: 'production',
   module: {
     rules: [
       {
