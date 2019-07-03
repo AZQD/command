@@ -120,3 +120,11 @@ touch命令: 作用:创建空文件,或者改变文件的时间戳属性：
 一般常用它的创建空文件功能，比如：
 touch data.json
 touch test.txt
+
+Mac前往某个文件夹：shift+command+g
+如打开hosts文件：输入/etc/hosts
+
+终端打开hosts文件：vim /etc/hosts
+
+/ 根目录；如 cd / 即回到根目录；
+~ liuchaojie；如：cd ~ 即回到初始目录；
