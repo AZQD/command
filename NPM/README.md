@@ -200,6 +200,7 @@ nvm use报错 exit status 1: ' 出现乱码：
 
 路径不对，或者路径名称有空格；
 
+
 ### 十、NRM
 
 使用nrm来切换npm源
