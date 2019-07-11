@@ -128,3 +128,8 @@ Mac前往某个文件夹：shift+command+g
 
 / 根目录；如 cd / 即回到根目录；
 ~ liuchaojie；如：cd ~ 即回到初始目录；
+
+Mac返回上一层文件夹：Command+上
+Mac进入下一层文件夹：Command+下
+
+Mac快速关闭多个finder窗口：Option-command-w
