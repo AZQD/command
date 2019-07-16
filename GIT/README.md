@@ -223,3 +223,5 @@ git checkout -b newBranch
 
 提交之前查看修改：git status
 提交之前查看具体修改：git diff
+
+修改分支名：git branch -m newBranch
