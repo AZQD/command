@@ -212,3 +212,11 @@ nvm use报错 exit status 1: ' 出现乱码：
 3. nrm use taobao：通过 nrm use指令来切换不同的源
 
 4. nrm add 别名 源地址：添加源
+
+
+### YARN
+
+yarn add
+yarn add [package]@[version]
+这将安装您的dependencies中的一个或多个包。
+用 --dev 或 -D 会在 devDependencies 里安装一个或多个包。
