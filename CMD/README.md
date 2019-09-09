@@ -133,3 +133,5 @@ Mac返回上一层文件夹：Command+上
 Mac进入下一层文件夹：Command+下
 
 Mac快速关闭多个finder窗口：Option-command-w
+
+control + L ：清除命令行窗口内容，类似执行 clear 命令；
