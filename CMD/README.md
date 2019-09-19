@@ -137,3 +137,5 @@ Mac快速关闭多个finder窗口：Option-command-w
 control + L ：清除命令行窗口内容，类似执行 clear 命令；
 
 检查元素：command + option + i；
+
+Mac下chrome快捷键：https://blog.csdn.net/fjh658/article/details/8860967
