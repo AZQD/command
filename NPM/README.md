@@ -147,6 +147,8 @@ npm install -g npm@2.14.14 /npm update -g npm@2.14.14  安装指定的npm版本
 
 npm init 引导创建一个package.json文件，包括名称、版本、作者这些信息等
 
+npm init -y 一键快速创建一个package.json；
+
 npm outdated  #检查模块是否已经过时
 
 npm root  [-g] 查看包的安装路径，输出 node_modules的路径，
