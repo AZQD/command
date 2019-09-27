@@ -139,3 +139,7 @@ control + L ：清除命令行窗口内容，类似执行 clear 命令；
 检查元素：command + option + i；
 
 Mac下chrome快捷键：https://blog.csdn.net/fjh658/article/details/8860967
+
+查询使用某端口的进程：
+sudo lsof -i :8080 // 比如查看8080端口的进程，执行后可以看到参数中有PID，如PID=2739
+sudo kill -9 2739  // 关闭进程
