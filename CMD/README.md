@@ -143,3 +143,6 @@ Mac下chrome快捷键：https://blog.csdn.net/fjh658/article/details/8860967
 查询使用某端口的进程：
 sudo lsof -i :8080 // 比如查看8080端口的进程，执行后可以看到参数中有PID，如PID=2739
 sudo kill -9 2739  // 关闭进程
+
+Linux sudo命令：
+Linux sudo命令以系统管理者的身份执行指令，也就是说，经由 sudo 所执行的指令就好像是 root 亲自执行。
