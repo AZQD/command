@@ -230,3 +230,18 @@ Git操作的过程中突然显示Another git process seems to be running in this
 git被另外一个程序占用，重启机器也不没有解决
 原因在于Git在使用过程中奔溃，部分被上锁资源没有被释放导致的。
 解决方案：进入项目文件夹下的 .git文件中（显示隐藏文件夹或rm .git/index.lock）删除index.lock文件即可。
+
+1. git add . 撤回：
+git reset HEAD 
+
+2. git commit -m 撤回：
+git reset --soft HEAD  不删除工作空间改动代码，撤销commit，不撤销git add . 
+git reset --mixed HEAD 不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
+git reset --hard HEAD  删除工作空间改动代码，撤销commit，撤销git add . 
+
+3.修改git commit注释：
+git commit --amend  此时会进入默认vim编辑器，修改注释完毕后保存就好了
+
+4.git rebase:用来修改合并 commit 历史；
+
+5.git cherry-pick id  ：”挑拣”提交，获取某一个分支的单笔提交，并作为一个新的提交引入到你当前分支上。
