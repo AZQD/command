@@ -124,7 +124,7 @@ touch test.txt
 Mac前往某个文件夹：shift+command+g
 如打开hosts文件：输入/etc/hosts
 
-终端打开hosts文件：vim /etc/hosts
+终端打开hosts文件：sudo vim /etc/hosts
 
 / 根目录；如 cd / 即回到根目录；
 ~ liuchaojie；如：cd ~ 即回到初始目录；
@@ -146,3 +146,6 @@ sudo kill -9 2739  // 关闭进程
 
 Linux sudo命令：
 Linux sudo命令以系统管理者的身份执行指令，也就是说，经由 sudo 所执行的指令就好像是 root 亲自执行。
+
+:set number  可查看vim中的行号
+:7,19d       删除第7-19行
