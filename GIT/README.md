@@ -242,6 +242,8 @@ git reset --hard HEAD  删除工作空间改动代码，撤销commit，撤销git
 3.修改git commit注释：
 git commit --amend  此时会进入默认vim编辑器，修改注释完毕后保存就好了
 
-4.git rebase:用来修改合并 commit 历史；
+4.git rebase:
+(1).合并多个commit为一个完整commit;
+(2).将某一段commit粘贴到另一个分支上;
 
 5.git cherry-pick id  ：”挑拣”提交，获取某一个分支的单笔提交，并作为一个新的提交引入到你当前分支上。
