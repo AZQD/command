@@ -247,3 +247,12 @@ git commit --amend  此时会进入默认vim编辑器，修改注释完毕后保
 (2).将某一段commit粘贴到另一个分支上;
 
 5.git cherry-pick id  ：”挑拣”提交，获取某一个分支的单笔提交，并作为一个新的提交引入到你当前分支上。
+
+Git flow:
+1.两个长期分支:
+主分支master
+开发分支develop
+2.三种短期分支:
+功能分支（feature branch）
+补丁分支（hotfix branch）
+预发分支（release branch）
