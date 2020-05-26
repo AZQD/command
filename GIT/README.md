@@ -235,9 +235,9 @@ git被另外一个程序占用，重启机器也不没有解决
 git reset HEAD 
 
 2. git commit -m 撤回：
-git reset --soft HEAD  不删除工作空间改动代码，撤销commit，不撤销git add . 
-git reset --mixed HEAD 不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
-git reset --hard HEAD  删除工作空间改动代码，撤销commit，撤销git add . 
+git reset --soft HEAD  撤销commit，不撤销git add .，不删除工作空间改动代码，
+git reset --mixed HEAD 撤销commit，撤销git add .，  不删除工作空间改动代码，
+git reset --hard HEAD  撤销commit，撤销git add .，  删除工作空间改动代码
 
 3.修改git commit注释：
 git commit --amend  此时会进入默认vim编辑器，修改注释完毕后保存就好了
