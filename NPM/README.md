@@ -198,6 +198,9 @@ windows下nvm的命令([]中的参数可有可无)：
 
 参考链接：https://www.cnblogs.com/SpecterGK/p/8550392.html
 
+安装指定版本node
+nvm install 12.19.0
+
 nvm use报错 exit status 1: ' 出现乱码：
 
 路径不对，或者路径名称有空格；
