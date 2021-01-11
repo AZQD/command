@@ -242,7 +242,7 @@ git reset --mixed HEAD 撤销commit，撤销git add .，  不删除工作空间�
 git reset --hard HEAD  撤销commit，撤销git add .，  删除工作空间改动代码
 
 3.修改git commit注释：
-git commit --amend  此时会进入默认vim编辑器，修改注释完毕后保存就好了
+git commit --amend  此时会进入默认vim编辑器，修改注释完毕后保存就好了。
 
 4.git rebase:
 (1).合并多个commit为一个完整commit;
@@ -258,3 +258,15 @@ Git flow:
 功能分支（feature branch）
 补丁分支（hotfix branch）
 预发分支（release branch）
+
+git命令简写：
+alias gc='git clone '
+alias gco='git checkout'
+alias gd='git diff'
+alias gl='git pull'
+alias gp='git push'
+alias gr='git branch'
+alias gst='git status'
+alias glog='git log'
+alias glogp='git log -p'
+alias gci='git commit'
