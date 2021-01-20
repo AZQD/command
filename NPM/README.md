@@ -225,3 +225,16 @@ yarn add
 yarn add [package]@[version]
 这将安装您的dependencies中的一个或多个包。
 用 --dev 或 -D 会在 devDependencies 里安装一个或多个包。
+
+
+
+### 更新包
+
+    1.安装指定版本node：
+    nvm install 12.19.0
+    
+    2.安装指定的npm版本：
+    npm install -g npm@2.14.14 /npm update -g npm@2.14.14
+    
+    3.安装最新版本：
+    npm i @tongzhen-fe/library@latest
