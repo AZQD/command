@@ -227,7 +227,6 @@ yarn add [package]@[version]
 用 --dev 或 -D 会在 devDependencies 里安装一个或多个包。
 
 
-
 ### 更新包
 
     1.安装指定版本node：
