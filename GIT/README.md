@@ -270,3 +270,11 @@ alias gst='git status'
 alias glog='git log'
 alias glogp='git log -p'
 alias gci='git commit'
+
+默认分支main，如何改为master：
+The default branch has been renamed!
+main is now named master
+If you have a local clone, you can update it by running:
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
