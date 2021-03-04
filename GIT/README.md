@@ -278,3 +278,6 @@ If you have a local clone, you can update it by running:
 git branch -m main master
 git fetch origin
 git branch -u origin/master master
+
+记Git报错-refusing to merge unrelated histories:
+执行命令：git pull origin master --allow-unrelated-histories
