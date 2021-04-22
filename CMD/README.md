@@ -124,7 +124,8 @@ touch test.txt
 Mac前往某个文件夹：shift+command+g
 如打开hosts文件：输入/etc/hosts
 
-终端打开hosts文件：sudo vim /etc/hosts
+Windows电脑修改host位置：C:\Windows\System32\drivers\etc\hosts
+Mac终端修改host位置：sudo vim /etc/hosts
 
 / 根目录；如 cd / 即回到根目录；
 ~ liuchaojie；如：cd ~ 即回到初始目录；
