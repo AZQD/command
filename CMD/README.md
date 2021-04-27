@@ -1,45 +1,45 @@
-dir 显示目录和文件
-cd  进入目录
-cd .. 返回上一层
-del 删除文件
-rd  删除空目录（目录中不能有子目录和文件）
-rd/s 删除目录并同时删除目录中的子目录以及文件
+  dir 显示目录和文件
+  cd  进入目录
+  cd .. 返回上一层
+  del 删除文件
+  rd  删除空目录（目录中不能有子目录和文件）
+  rd/s 删除目录并同时删除目录中的子目录以及文件
 
-rm-rf dir //强制删除某个文件
+  rm-rf dir //强制删除某个文件
 
-rd: remove directory
-s: subdirectory
+  rd: remove directory
+  s: subdirectory
 
-mkdir test 创建test目录
-rmdir test 删除test目录
-
-
-pwd //当前文件路径
-ls //当前文件的所有文件
-mkdir //创建新文件夹
-
-open ~/.ssh
+  mkdir test 创建test目录
+  rmdir test 删除test目录
 
 
-Mac:
-nvm安装成功后，但命令不可用
-https://www.cnblogs.com/respect2017/p/7227191.html
+  pwd //当前文件路径
+  ls //当前文件的所有文件
+  mkdir //创建新文件夹
 
-如出现：-bash: nvm: command not found
-
-source .bash_profile
-
-source命令用法：source FileName
-作用：在当前bash环境下读取并执行FileName中的命令。
+  open ~/.ssh
 
 
-clear               清屏
-df                   察看分区情况
-top                 系统监视器，按q键可退出
-uptime           察看系统总体运行情况
-cd ..                退回到上层目录
-cd /                退回到根目录
-dmesg  或者 dmesg | more         看引导启动信息（很有用）
+  Mac:
+  nvm安装成功后，但命令不可用
+  https://www.cnblogs.com/respect2017/p/7227191.html
+
+  如出现：-bash: nvm: command not found
+
+  source .bash_profile
+
+  source命令用法：source FileName
+  作用：在当前bash环境下读取并执行FileName中的命令。
+
+
+  clear               清屏
+  df                   察看分区情况
+  top                 系统监视器，按q键可退出
+  uptime           察看系统总体运行情况
+  cd ..                退回到上层目录
+  cd /                退回到根目录
+  dmesg  或者 dmesg | more         看引导启动信息（很有用）
 
 
 
