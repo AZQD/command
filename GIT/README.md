@@ -80,8 +80,8 @@
     避免git不识别大小写：
     git mv --force web/fatburntestReact/jsx/info.jsx web/fatburntestReact/jsx/RankList.jsx
     
-    燃脂营相关代码：
-    git clone git@git.picooc.com:tanchao/detection.picooc.com.git //下载代码
+    燃zhi营相关代码：
+    git clone git@git.p*****c.com:tanchao/detection.p*****c.com.git //下载代码
     git branch //找到分支
     git branch develop //找到指定分支
     git checkout develop //检出分支
@@ -89,7 +89,7 @@
     git config core.longpaths true //文件名过长，取消限制
     
     官网pull方法：
-    git clone git@git.picooc.com:web_developer/www.picooc.com.git
+    git clone git@git.p*****c.com:web_developer/www.p*****c.com.git
     代码拉下来之后把git窗口关掉，重新打开：
     查看分支：git branch
     创建分支：git branch develop
