@@ -283,4 +283,9 @@
     记Git报错-refusing to merge unrelated histories:
     执行命令：git pull origin master --allow-unrelated-histories
     
+    git hook等限制，如果想强制提交：
+    git add .
+    git commit -n -m 'msg'
+    git push origin dev
+    
 ...
