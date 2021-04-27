@@ -56,6 +56,7 @@
 			* public Key需要配置到github上
 			* private key 保存为一个ppk文件
 
+...
 
 	如果删除github中的文件，git add用：git add -A
 
@@ -281,3 +282,5 @@
     
     记Git报错-refusing to merge unrelated histories:
     执行命令：git pull origin master --allow-unrelated-histories
+    
+...
