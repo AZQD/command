@@ -288,4 +288,6 @@
     git commit -n -m 'msg'
     git push origin dev
     
+    git删除历史commit：https://zhuanlan.zhihu.com/p/73029640
+    
 ...
