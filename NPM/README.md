@@ -203,7 +203,9 @@ nvm install 12.19.0
 
 nvm use报错 exit status 1: ' 出现乱码：
 
-路径不对，或者路径名称有空格；
+安装路径名称有空格，需要重新安装；
+
+安装流程参考：https://blog.csdn.net/qq_41409353/article/details/109553940
 
 
 ### 十、NRM
