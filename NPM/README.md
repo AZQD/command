@@ -207,6 +207,8 @@ nvm use报错 exit status 1: ' 出现乱码：
 
 安装流程参考：https://blog.csdn.net/qq_41409353/article/details/109553940
 
+安装cnpm：npm i -g cnpm --registry=https://registry.npm.taobao.org
+
 
 ### 十、NRM
 
