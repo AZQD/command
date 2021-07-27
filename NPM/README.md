@@ -225,6 +225,7 @@ nvm use报错 exit status 1: ' 出现乱码：
 
 ### YARN
 
+安装yarn npm install yarn -g 
 yarn add
 yarn add [package]@[version]
 这将安装您的dependencies中的一个或多个包。
