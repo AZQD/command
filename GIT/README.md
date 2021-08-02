@@ -290,4 +290,15 @@
     
     git删除历史commit：https://zhuanlan.zhihu.com/p/73029640
     
+    
+    
+    分支名main修改为master后，提交代码提示异常：
+    The default branch has been renamed!
+    main is now named master
+    If you have a local clone, you can update it by running:
+    解决方案：
+    git branch -m main master
+    git fetch origin
+    git branch -u origin/master master
+    
 ...
