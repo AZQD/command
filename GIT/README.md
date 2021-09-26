@@ -304,10 +304,10 @@
     git修改之前某一个特定的commit：
     
     1.找到要修改SHA位置(git log)
-    2.git rebase -i  32e0a87f      #指定的SHA位置
-    3.进入编辑页面
-    4.将pick修改为edit 并修改后面的内容并:wq  保存退出
+    2.git rebase -i  32e0a87f^      #指定的SHA位置的上一个commit
+    3.进入编辑页面，将pick修改为edit 并修改后面的内容并:wq  保存退出
     5.git commit –amend 修改message 
+    git rebase --continue
     6.git push -f  推到远程(修改成功了)
     
 ...
