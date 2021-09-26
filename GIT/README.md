@@ -318,5 +318,7 @@
      
     5.推到远程
      git push -f origin master
+
+
     
 ...
