@@ -301,13 +301,22 @@
     git fetch origin
     git branch -u origin/master master
     
-    git修改之前某一个特定的commit：
     
-    1.找到要修改SHA位置(git log)
-    2.git rebase -i  32e0a87f^      #指定的SHA位置的上一个commit
-    3.进入编辑页面，将pick修改为edit 并修改后面的内容并:wq  保存退出
-    5.git commit –amend 修改message 
-    git rebase --continue
-    6.git push -f  推到远程(修改成功了)
+    
+    git修改之前某一个特定的commit消息：
+    
+    1.将HEAD移动到需要修改的commit上
+     git rebase -i eb69bff96^
+    
+    2.找到需要修改的 commit ，将首行的 pick 改成 edit 后保存
+    
+    3.修改对于的commit消息
+     git commit --amend
+    
+    4.移动HEAD 回到最新的commit
+     git rebase --continue
+     
+    5.推到远程
+     git push -f origin master
     
 ...
