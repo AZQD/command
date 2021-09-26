@@ -301,4 +301,6 @@
     git fetch origin
     git branch -u origin/master master
     
+    git修改之前某一个特定的commit：
+    
 ...
