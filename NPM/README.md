@@ -228,6 +228,11 @@ NPM镜像源查看和切换：https://www.jianshu.com/p/944aad9487c5
 
 4. nrm add 别名 源地址：添加源
 
+PS：如果安装nrm之后，仍然提示：nrm:command not found，则需要配置环境变量；
+nrm安装路径一般为：C:\Users\liuchaojie\AppData\Roaming\npm
+将这个路径配置到环境变量的Path里面即可，然后重启命令行工具，执行nrm ls，即可；
+
+
 
 ### YARN
 
