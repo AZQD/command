@@ -260,7 +260,7 @@
     补丁分支（hotfix branch）
     预发分支（release branch）
     
-    git命令简写：
+    git命令简写配置：
     alias gc='git clone '
     alias gco='git checkout'
     alias gd='git diff'
