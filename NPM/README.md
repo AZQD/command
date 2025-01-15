@@ -37,6 +37,12 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
 
 1.登陆npm：npm login // npm whoami 查看登录状态
 
+    常见问题：npm login报错：Sign up to CNPM  Public registration is not allowed
+    方法1：全局修改npm镜像源，执行如下配置：
+        npm config set registry https://registry.npmjs.org/
+    方法2：局部修改npm镜像源，在项目根目录添加.npmrc文件，内容如下：
+        registry=https://registry.npmjs.org/
+
 2.本地新建一个文件夹：mkdir cj_test666
 
 3.进入该文件：cd cj_test666
@@ -209,12 +215,30 @@ nvm use报错 exit status 1: ' 出现乱码：
 
 安装cnpm：npm i -g cnpm --registry=https://registry.npm.taobao.org
 
-全局切换镜像源：npm config set registry http://registry.npm.taobao.org
+
+####镜像
+
+全局切换镜像源：npm config set registry https://r.cnpmjs.org/
+
+全局切换官方镜像源：npm config set registry https://registry.npmjs.org/
+
 查看镜像源使用状态：npm get registry
-全局切换官方镜像源：npm config set registry http://www.npmjs.org
 
-NPM镜像源查看和切换：https://www.jianshu.com/p/944aad9487c5
+删除已设置的镜像地址：npm config delete registry
 
+你也可以通过.npmrc文件来设置镜像地址。
+在你的工作目录或者用户的主目录中创建或编辑.npmrc文件，添加或修改以下内容：
+
+    registry=https://registry.npm.taobao.org
+
+NPM镜像源查看和切换-参考文档：https://www.jianshu.com/p/944aad9487c5
+
+      npm ---------- https://registry.npmjs.org/
+      yarn --------- https://registry.yarnpkg.com/
+      tencent ------ https://mirrors.cloud.tencent.com/npm/
+      cnpm --------- https://r.cnpmjs.org/
+      taobao ------- https://registry.npmmirror.com/
+      npmMirror ---- https://skimdb.npmjs.com/registry/
 
 ### 十、NRM
 
