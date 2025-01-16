@@ -37,6 +37,9 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
 
 1.登陆npm：npm login // npm whoami 查看登录状态
 
+    常见问题：首次npm绑定设备，需要向npmjs.com申请用户名，执行：
+    npm adduser
+
     常见问题：npm login报错：Sign up to CNPM  Public registration is not allowed
     方法1：全局修改npm镜像源，执行如下配置：
         npm config set registry https://registry.npmjs.org/
