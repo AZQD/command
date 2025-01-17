@@ -57,7 +57,6 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
         
     常见问题：由于Two-Factor Authentication导致github发布npm包失败
     https://blog.csdn.net/qq_35261296/article/details/143906379
-    
 
 2.本地新建一个文件夹：mkdir azqd
 
