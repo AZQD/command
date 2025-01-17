@@ -46,8 +46,18 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
     方法2：局部修改npm镜像源，在项目根目录添加.npmrc文件，内容如下：
         registry=https://registry.npmjs.org/
         
+    常见问题：npm login登录使用的OTP验证码：是手机上的FreeOTP软件，对应的npm账号的验证码；
+    $ npm login
+    Username: l********e
+    Password: ******
+    Email: (this IS public) 159*******8@163.com
+    npm notice Please use the one-time password (OTP) from your authenticator application
+    Enter one-time password from your authenticator app: ******
+    Logged in as liuchaojie on https://registry.npmjs.org/.
+        
     常见问题：由于Two-Factor Authentication导致github发布npm包失败
     https://blog.csdn.net/qq_35261296/article/details/143906379
+    
 
 2.本地新建一个文件夹：mkdir azqd
 
