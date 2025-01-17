@@ -45,10 +45,13 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
         npm config set registry https://registry.npmjs.org/
     方法2：局部修改npm镜像源，在项目根目录添加.npmrc文件，内容如下：
         registry=https://registry.npmjs.org/
+        
+    常见问题：由于Two-Factor Authentication导致github发布npm包失败
+    https://blog.csdn.net/qq_35261296/article/details/143906379
 
-2.本地新建一个文件夹：mkdir cj_test666
+2.本地新建一个文件夹：mkdir azqd
 
-3.进入该文件：cd cj_test666
+3.进入该文件：cd azqd
 
 4.新建一个项目：npm init
 
@@ -103,12 +106,12 @@ npm uninstall 模块 --save-dev 删除模块，同时删除模块留在package.j
 
 ### 六、npm包使用步骤：
 
-1.通过npm install cj_test666 安装该包
+1.通过npm install azqd 安装该包
 
 2.导入引入的包模块，调用其方法
 
-    const cj_test666 = require('cj_test666'); //或者：import cj_test666 from 'cj_test666';
-    cj_test666.consoleFun(666); // 666
+    const azqd = require('azqd'); //或者：import azqd from 'azqd';
+    azqd.consoleFun(666); // 666
 
 
 ### 七、npm升级指定依赖包
